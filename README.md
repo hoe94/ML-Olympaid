@@ -21,8 +21,12 @@ With this participate expereince, I can leverage my machine learning knowledge t
   * To tackle the imbalanced dataset
 
 - Observation
-
+  * The training data contains 227,845 rows data & 28 columns (227845, 28)
+  * First 26 columns (col_0 - col_25) are the information about the transactions
+  * Amount column is the paid amount made by transactions. Target column is the response varibale to indicate the transactions is valid or fraud
+  * This training data is highly imbalanced. As the fraud transactions only take the distribution 0.17% (386 rows) among the datasets.
+  * There are the missing values contains from first 26 columns (col_0 - col_25)
 
 - Challenge
-  * This dataset is highly unbalanaced. As the fraud transactions only take the distribution 0.17% (386 rows) among the datasets.
+  * This dataset is highly unbalanaced. It might lead to read the prediction resutl incorrectly
   * 
