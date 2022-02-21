@@ -9,7 +9,7 @@ With this participate expereince, I can leverage my machine learning knowledge t
 
 # Use Case
 
-- Data Description
+- Data Understanding
   * This is the transactions dataset that made by credit cards in September 2013 by European cardholders.
   * It contains the information of transaction and paid amount made by credit cards
   * There's a target column to indicate whether the transaction is valid or fraud
@@ -31,5 +31,7 @@ With this participate expereince, I can leverage my machine learning knowledge t
   * This dataset is highly unbalanaced. It might lead to read the prediction resutl incorrectly
 
 - Methodology
-  * Python Library: pandas, numpy, matplotlib, seaborn
+  * Python package: pandas, numpy, matplotlib, seaborn
   * EDA Visualization: Histogram, Boxplot
+
+# EDA Visualization
