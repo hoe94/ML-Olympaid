@@ -16,12 +16,14 @@ With this participate expereince, I can leverage my machine learning knowledge t
   * Due to data security concern, all the data are encrypted
   
 - Objective
+  * To help company to capture the fraud transactions
   * Build the ML model to implement the fraud detection
-  * To enhance the probabiltiy of detect the fraud transactions.
+  * To enhance the probabiltiy of detect the fraud transactions
   * To tackle the imbalanced dataset
 
 - Observation
-  * The training data contains 227,845 rows data & 28 columns (227845, 28)
+  * The training data contains 227,845 rows data & 28 columns
+  * The Training data is 48.7mb.
   * First 26 columns (col_0 - col_25) are the information about the transactions
   * Amount column is the paid amount made by transactions. Target column is the response varibale to indicate the transactions is valid or fraud
   * This training data is highly imbalanced. As the fraud transactions only take the distribution 0.17% (386 rows) among the datasets.
