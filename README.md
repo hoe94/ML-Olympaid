@@ -17,9 +17,7 @@ With this participate expereince, I can leverage my machine learning knowledge t
   
 - Objective
   * To help company to capture the fraud transactions
-  * Build the ML model to implement the fraud detection
-  * To enhance the probabiltiy of detect the fraud transactions
-  * To tackle the imbalanced dataset
+  * To take action immediately on fraud transactions, and reduce the customer lost.
 
 - Observation
   * The training data contains 227,845 rows data & 28 columns
@@ -30,10 +28,28 @@ With this participate expereince, I can leverage my machine learning knowledge t
   * There are the missing values contains from first 26 columns (col_0 - col_25)
 
 - Challenge
-  * This dataset is highly unbalanaced. It might lead to read the prediction resutl incorrectly
+  * This dataset is highly unbalanaced. It might lead to read the prediction result incorrectly.
+  * Due to confidental data, cant apply the business domain knowledge to analyse the data
 
 - Methodology
-  * Python package: pandas, numpy, matplotlib, seaborn
+  * Python package: pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost
   * EDA Visualization: Histogram, Boxplot
 
 # EDA Visualization
+
+- Histogram
+  * We can observed the distribution & x-axis value for every column
+  * These are the findings we observed from the histogram chart.
+
+  * Findings
+   * col_0 - col_3 values falls on almost 0, x-axis also same
+   * col_17, col_18, col_21, col_22, col_23, col_24, col_25  values falls on almost 0, x-axis also same
+   * col_4, col_8, col_14, normal distribution, x[-2.5, 25]
+   * col_5, col_6, col_7, col_9, col_11, col_13 slightly left distribution, x[-5,5]
+   * col_12, col_15, col_16, col_19, normal distribution, x[-2, 2]
+   * col_10 other case
+
+- Outlier Analysis
+  * This analysis used to define any outlier valules occur on every column
+  * From the boxplot chart, almost every column got outlier value are out of the range (min & max)
+  * 
