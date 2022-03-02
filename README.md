@@ -38,8 +38,14 @@ With this participate expereince, I can leverage my machine learning knowledge t
 # EDA Visualization
 
 - Histogram
-  * We can observed the distribution & x-axis value for every column
-  * These are the findings we observed from the histogram chart.
+  * Based on the distribution & X-axis, we grouped our observation and categorize into the table
+
+  | Group| Columns              | Distribution  | X-Axis     |
+  | ---  |:-------------:       |:-------------:|:--------:  |
+  | 1    | col_0 - col_3        |               |            |
+  |      | col_17, col_18,      | normal        | almost 0   |
+  |		    | col_21 - col_25      |               |            | 
+  | 2    | col_4, col_8, col_14 | normal        |[-2.5, 2.5] |
 
   * Findings
    * col_0 - col_3 values falls on almost 0, x-axis also same
