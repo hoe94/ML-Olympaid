@@ -45,9 +45,10 @@ With this participate expereince, I can leverage my machine learning knowledge t
   | 1    | col_0 - col_3, col_25  | normal        | almost 0   | most values falls nearby 0, some outlier value appears|
   | 2    | col_10, col_17, col_18 | normal        | almost 0   | most values falls nearby 0                            |
   |		    | col_21 - col_24        |               |            |                                                       |
-  | 3    | col_12, col_15         | normal        |[-2.0, 2.0] | the values between -2 to 2                            |
+  | 3    | col_12, col_15         | normal        |[-2, 2]     | the values between -2 to 2                            |
   |      | col_16, col_19         |               |            |                        							                        | 
   | 4    | col_4, col_8, col_14   | normal        |[-2.5, 2.5] | the values between -2.5 to 2.5                        |
+  |      |                        |               |            |                        							                        | 
   |      | col_5, col_6, col_7    |               |            |                        							                        | 
   | 5    | col_9, col_11, col_13  | normal        |[-5.0, 5.0] | the values between -5.0 to 5.0                        |   
   |      | col_20                 |               |            |                        							                        | 
