@@ -53,7 +53,8 @@ With this participate expereince, I can leverage my machine learning knowledge t
   | 5    | col_9, col_11, col_13  | normal        |[-5.0, 5.0] | the values between -5.0 to 5.0                        |   
   |      | col_20                 |               |            |                        							                        | 
 
-
+  ![plot](https://github.com/hoe94/ML-Olympaid/blob/main/Figures/histogram1.png)
+  
 - Outlier Analysis
   * This analysis used to define any outlier valules occur on every column
   * From the boxplot chart, almost every column got outlier value are out of the range (min & max)
