@@ -42,6 +42,8 @@ With this participate expereince, I can leverage my machine learning knowledge t
   * For the image reference, please go the links. 
    <a href="https://github.com/hoe94/ML-Olympaid/blob/main/Figures/histogram1.png">Histogram 1 (col_0 - col_14) </a>
    <a href="https://github.com/hoe94/ML-Olympaid/blob/main/Figures/histogram2.png">Histogram 2 (col_15 - Amount)</a>
+   
+   
   | Group| Columns                | Distribution  | X-Axis     | Remarks                                               |
   | ---  |:-------------:         |:-------------:|:--------:  |:------------------------------------------------------|
   | 1    | col_0 - col_3, col_25, | normal        | almost 0   | most values falls nearby 0, some outlier value appears|
