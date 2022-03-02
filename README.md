@@ -54,8 +54,9 @@ With this participate expereince, I can leverage my machine learning knowledge t
   |      | col_20                 |               |            |                        							                        | 
 
   ![plot](https://github.com/hoe94/ML-Olympaid/blob/main/Figures/histogram1.png)
+  ![plot](https://github.com/hoe94/ML-Olympaid/blob/main/Figures/histogram2.png)
   
 - Outlier Analysis
   * This analysis used to define any outlier valules occur on every column
   * From the boxplot chart, almost every column got outlier value are out of the range (min & max)
-  * 
+  ![plot](https://github.com/hoe94/ML-Olympaid/blob/main/Figures/boxplot1.png)
