@@ -40,12 +40,12 @@ With this participate expereince, I can leverage my machine learning knowledge t
 - Histogram
   * Based on the distribution & X-axis, we grouped our observation and categorize into the table
 
-  | Group| Columns              | Distribution  | X-Axis     |
-  | ---  |:-------------:       |:-------------:|:--------:  |
-  | 1    | col_0 - col_3        |               |            |
-  |      | col_17, col_18,      | normal        | almost 0   |
-  |		    | col_21 - col_25      |               |            | 
-  | 2    | col_4, col_8, col_14 | normal        |[-2.5, 2.5] |
+  | Group| Columns                | Distribution  | X-Axis     | Remarks                                               |
+  | ---  |:-------------:         |:-------------:|:--------:  |:------------------------------------------------------|
+  | 1    | col_0 - col_3, col_25  | normal        | almost 0   | most values falls nearby 0, some outlier value appears|
+  | 2    | col_17, col_18,        | normal        | almost 0   | most values falls nearby 0                            |
+  |		    | col_21 - col_24        |               |            |                                                       |
+  | 3    | col_4, col_8, col_14   | normal        |[-2.5, 2.5] | the values between -2.5 to 2.5                        |
 
   * Findings
    * col_0 - col_3 values falls on almost 0, x-axis also same
