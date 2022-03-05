@@ -89,3 +89,16 @@ With this participate expereince, I can leverage my machine learning knowledge t
  *  SMOTE is an Oversampling method to create synthetic additional data points for the minority class
  *  Tomek is an Undersampling method to reducing the data points from the majority class
 
+4. Standardization
+* apply standardization into amount column due to the scaling is different then other columns
+
+# Model Creation
+  * Build the classification model by using XGBoost Algorithm
+  * Perform the Hyperparameter tuning to optimize the parameters setting in order to acheived better result
+  * Acheived the type 1 error 53 records and type 2 error 0 records
+  * Acheived the F1 Score (marco) with 99.71% score
+  <img src = 'https://github.com/hoe94/ML-Olympaid/blob/main/Figures/result.png'/>
+  * Fit the validation data into the model & get the result upload to kaggle. Belows are the description of submission & trend of public score
+  <img src = 'https://github.com/hoe94/ML-Olympaid/blob/main/Figures/result_2.png'/>
+  <img src = 'https://github.com/hoe94/ML-Olympaid/blob/main/Figures/result_3.png'/>
+  * The Public Score of 2nd submission to 5th submission is 0, it's because I am not familiar with Kaggle rules and do the wrong thing
