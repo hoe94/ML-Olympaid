@@ -102,3 +102,7 @@ With this participate expereince, I can leverage my machine learning knowledge t
   <img src = 'https://github.com/hoe94/ML-Olympaid/blob/main/Figures/result_2.png'/>
   <img src = 'https://github.com/hoe94/ML-Olympaid/blob/main/Figures/result_3.png'/>
   * The Public Score of 2nd submission to 5th submission is 0, it's because I am not familiar with Kaggle rules and do the wrong thing
+
+# Kaggle Public Leaderboard
+* This is the public leaderboard with acheived score at 5/3/2022. And I get 12th position.
+<img src = 'https://github.com/hoe94/ML-Olympaid-Data-Hackathon/blob/main/Figures/kaggle_leader_board_03052022.png'/>
