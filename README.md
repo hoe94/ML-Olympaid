@@ -73,3 +73,17 @@ With this participate expereince, I can leverage my machine learning knowledge t
   * For example: column_0 contains 3.03% data are below minimum threshold, and contains 4.58% are below maximum threshold
   * In the nutshell, we decided not to proceed handle outlier values, it's due to outliers value may contain the useful information.
   <img src="https://github.com/hoe94/ML-Olympaid/blob/main/Figures/Outlier_Analysis.png"/>
+
+# Feature Engineering
+ 1. Downcasting
+ *  apply downcasting technique to reduce the data from 78mb to 12.4mb. As most of the column are float64 data type and no need such huge usage.
+ 
+ 2. Data Cleansing
+ *  According to Outlier Analysis 2, most columns null value are falls on 5%. Therefore, we compute the mean value for every column & impute into missing value
+
+ 3. SMOTETomek Technique
+ *  Due to the data is highly imbalanced, the unbalanced class distribution will highly impacted the classification result. Hence, we apply SMOTETomek technique to rebalance the class distribution
+ *  SMOTETomek is a combination technique of Oversampling (SMOTE) & Undersampling (Tomek)
+ *  SMOTE is an Oversampling method to create synthetic additional data points for the minority class
+ *  Tomek is an Undersampling method to reducing the data points from the majority class
+
