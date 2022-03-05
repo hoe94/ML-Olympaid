@@ -64,7 +64,7 @@ With this participate expereince, I can leverage my machine learning knowledge t
   * From the boxplot chart, almost every column got outlier value are out of the range (min & max)
   * <a href="https://github.com/hoe94/ML-Olympaid/blob/main/Figures/boxplot1.png">Boxplot</a>
   
-  * <a href = "https://github.com/hoe94/ML-Olympaid/blob/main/Figures/Outlier_Analysis.png"> Outlier Analysis</a>
+  * ![plot] ("https://github.com/hoe94/ML-Olympaid/blob/main/Figures/Outlier_Analysis.png")
   * * column: column name
   * * min_outlier_count%: percentage(%) implies on the number of outlier count below the minimum threshold (value - (1.5 * iqr))
   * * within_range_count%: percentage (%) implies on the number of value falls on within range
