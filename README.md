@@ -1,4 +1,4 @@
-# ML Olympaid
+# ML Olympaid Data Hackton
 
 ML Olympaid Data Hackton
 
