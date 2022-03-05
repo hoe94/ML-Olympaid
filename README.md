@@ -65,7 +65,6 @@ With this participate expereince, I can leverage my machine learning knowledge t
   * <a href="https://github.com/hoe94/ML-Olympaid/blob/main/Figures/boxplot1.png">Boxplot</a>
   
 - Outlier Analysis 2
-  <img src = "https://github.com/hoe94/ML-Olympaid/blob/main/Figures/Outlier_Analysis.png"/>
   * column: column name
   * min_outlier_count%: percentage(%) implies on the number of outlier count below the minimum threshold (value - (1.5 * iqr))
   * within_range_count%: percentage (%) implies on the number of value falls on within range
@@ -73,4 +72,4 @@ With this participate expereince, I can leverage my machine learning knowledge t
   * null_count%: percentage (%) implies on the number of value which is null
   * For example: column_0 contains 3.03% data are below minimum threshold, and contains 4.58% are below maximum threshold
   * In the nutshell, we decided not to proceed handle outlier values, it's due to outliers value may contain the useful information.
-  
+  <img src="https://github.com/hoe94/ML-Olympaid/blob/main/Figures/Outlier_Analysis.png"/>
