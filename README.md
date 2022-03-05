@@ -9,7 +9,7 @@ With this participate expereince, I can leverage my machine learning knowledge t
 
 # Use Case
 
-- Data Understanding
+- Business Understanding
   * This is the transactions dataset that made by credit cards in September 2013 by European cardholders.
   * It contains the information of transaction and paid amount made by credit cards
   * There's a target column to indicate whether the transaction is valid or fraud
@@ -19,7 +19,7 @@ With this participate expereince, I can leverage my machine learning knowledge t
   * To help company to capture the fraud transactions
   * To take action immediately on fraud transactions, and reduce the customer lost.
 
-- Observation
+- Data Understanding
   * The training data contains 227,845 rows data & 28 columns
   * The Training data is 48.7mb.
   * First 26 columns (col_0 - col_25) are the information about the transactions
@@ -31,9 +31,11 @@ With this participate expereince, I can leverage my machine learning knowledge t
   * This dataset is highly unbalanaced. It might lead to read the prediction result incorrectly.
   * Due to confidental data, cant apply the business domain knowledge to analyse the data
 
-- Methodology
-  * Python package: pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost
-  * EDA Visualization: Histogram, Boxplot
+- Solution
+  * Perform EDA Visualization to gain the deeper insight of data.
+  * Perform Outlier Analysis to understand any outliers occured in data.
+  * Feature Engineering: Data Cleansing & SMOTETomek technique
+  * Build the classfication model (Xgboost) to predict the transaction validity
 
 # EDA Visualization
 
@@ -61,3 +63,13 @@ With this participate expereince, I can leverage my machine learning knowledge t
   * This analysis used to define any outlier valules occur on every column
   * From the boxplot chart, almost every column got outlier value are out of the range (min & max)
   * <a href="https://github.com/hoe94/ML-Olympaid/blob/main/Figures/boxplot1.png">Boxplot</a>
+  
+  * <a href = "https://github.com/hoe94/ML-Olympaid/blob/main/Figures/Outlier_Analysis.png"> Outlier Analysis</a>
+  * * column: column name
+  * * min_outlier_count%: percentage(%) implies on the number of outlier count below the minimum threshold (value - (1.5 * iqr))
+  * * within_range_count%: percentage (%) implies on the number of value falls on within range
+  * * max_outlier_count%: percentage (%) implies on the number of outlier count above the maximum threshold (value + (1.5 * iqr))
+  * * null_count%: percentage (%) implies on the number of value which is null
+  
+  * In the nutshell, we decided not to proceed handle outlier values, it's due to outliers value may contain the useful information.
+  
