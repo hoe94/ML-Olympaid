@@ -7,6 +7,8 @@ With this participate expereince, I can leverage my machine learning knowledge t
 
 [Link to ML Olympaid Data Hackathon Event](https://www.kaggle.com/c/ml-olympiad-tensorflow-malaysia-user-group/overview)
 
+<img src = 'https://github.com/hoe94/ML-Olympaid/blob/main/Figures/Architecture_Diagram.png'/>
+
 # Use Case
 
 - Business Understanding
