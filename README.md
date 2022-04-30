@@ -99,10 +99,14 @@ With this participate expereince, I can leverage my machine learning knowledge t
   * Acheived the F1 Score (marco) with 99.71% score
   <img src = 'https://github.com/hoe94/ML-Olympaid/blob/main/Figures/result.png'/>
   * Fit the validation data into the model & get the result upload to kaggle. Belows are the description of submission & trend of public score
-  <img src = 'https://github.com/hoe94/ML-Olympaid/blob/main/Figures/result_2.png'/>
-  <img src = 'https://github.com/hoe94/ML-Olympaid/blob/main/Figures/result_3.png'/>
+  <img src = 'https://github.com/hoe94/ML-Olympaid/blob/main/Figures/result_2.1.png'/>
+  <img src = 'https://github.com/hoe94/ML-Olympaid/blob/main/Figures/result_4.png'/>
   * The Public Score of 2nd submission to 5th submission is 0, it's because I am not familiar with Kaggle rules and do the wrong thing
 
 # Kaggle Public Leaderboard
 * This is the public leaderboard with acheived score at 5/3/2022. And I get 12th position.
 <img src = 'https://github.com/hoe94/ML-Olympaid-Data-Hackathon/blob/main/Figures/kaggle_leader_board_03052022.png'/>
+
+# Kaggle Private Leaderboard
+* This is the private leaderboard with acheived score at 30/4/2022. And I get 20th position.
+<img src = 'https://github.com/hoe94/ML-Olympaid-Data-Hackathon/blob/main/Figures/kaggle_leader_private_board_04302022.png'/>
